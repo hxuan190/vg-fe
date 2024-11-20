@@ -1,7 +1,5 @@
-export default function loginLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return <div>{children}</div>;
+import LoginForm from "@/components/login-form";
+
+export default function Login() {
+  return <LoginForm />;
 }
